@@ -196,20 +196,6 @@ while True:
 
 
 
-def get_num():
-     while True:
-          try:
-               num = int(input("please enter a number (1-8):"))
-               if 1<=num<=8:
-                    return num
-               else:
-                    print("the number needs to be from 1 to 8")
-          except ValueError:
-               print("you can only put numbers here.")
-choose = get_num()
-print(f"You chose {choose}")
-
-
 
 
 
